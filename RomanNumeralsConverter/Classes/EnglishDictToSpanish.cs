@@ -1,4 +1,4 @@
-public class SpanishDict : INumeralDictionary
+public class EnglishDictToSpanish : INumeralDictionary
 {
     public IDictionary<string, string> NumeralDictionary()
     {

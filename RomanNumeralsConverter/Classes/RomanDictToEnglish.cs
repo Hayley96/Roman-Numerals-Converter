@@ -1,4 +1,4 @@
-public class RomanDict : INumeralDictionary
+public class RomanDictToEnglish : INumeralDictionary
 {
     public IDictionary<string, string> NumeralDictionary()
     {
