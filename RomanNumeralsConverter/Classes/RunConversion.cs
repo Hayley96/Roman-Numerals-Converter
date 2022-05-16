@@ -7,4 +7,3 @@ public class RunConversion
         ConvertedValue = dict.NumDictionary[ValueToConvert];
     }
 }
-
