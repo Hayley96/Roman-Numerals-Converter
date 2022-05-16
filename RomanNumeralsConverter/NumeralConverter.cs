@@ -5,7 +5,6 @@ SetDictionary dict = new();
 StandardMessages.Welcome();
 string? SelectedConverterType = Console.ReadLine();
 
-
 if (ValidateInput.CheckDictionaryOptions(SelectedConverterType, SetDictionary.TotalDicts))
 {
     if (SelectedConverterType.Equals("1"))
@@ -27,6 +26,3 @@ else
 {
     StandardMessages.DictOptionError();
 }
-
-
-
